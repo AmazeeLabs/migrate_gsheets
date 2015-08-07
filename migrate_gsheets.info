@@ -1,0 +1,8 @@
+name = Migrate Google Spreadsheet
+description = Adds support for using a publicly accessible Google spreadsheet as source for the Migrate module
+core = 7.x
+package = "Migration"
+
+dependencies[] = migrate
+
+files[] = migrate/source/MigrateSourceGoogleSpreadsheet.inc
